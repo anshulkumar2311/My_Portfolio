@@ -36,9 +36,9 @@
     }
 }
 
-@media screen and (max-width:600){
+@media screen and (max-width:600px){
    .container.testinomial__container{
-    width: var(--container-width-sm);
+    width: 80%;
    }
    .client__review{
     width: var(--container-width-sm);

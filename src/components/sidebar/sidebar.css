@@ -14,14 +14,18 @@
   left: 0;
   bottom: 0;
   width: 400px;
-  background: white;
+  /* background: white; */
+  background: linear-gradient(white,wheat);
 }
 
-/* @include mobile {
+
+@media screen and (max-width: 600px){ 
   .bg{
-  width: 200px;
+    width: 300px;
+    /* background: white; */
+    
   }
-} */
+}
 
 .links {
   position: absolute;
@@ -46,6 +50,12 @@
 /* @include mobile {
   font-size: 20px;
 } */
+
+@media screen and (max-width: 600px){ 
+  .links a{
+    font-size: 20px;
+  }
+}
 
 
 #navbtn {

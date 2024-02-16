@@ -1,7 +1,7 @@
 import React from 'react'
 import "./testonomial.css"
-import IMG1 from "../../assets/avatar1.jpg"
-import IMG2 from "../../assets/avatar2.jpg"
+import IMG1 from "../../assets/ic_launcher.png"
+import IMG2 from "../../assets/logoi.png"
 import IMG3 from "../../assets/avatar3.jpg"
 import IMG4 from "../../assets/avatar4.jpg"
 import { Pagination, Navigation } from 'swiper/modules';
@@ -16,12 +16,12 @@ const data = [
   {
     avatar:IMG1,
     name: "Gauge.ro",
-    review:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum natus quia, fugit sequi, quam iure, possimus excepturi aut soluta repudiandae laboriosam facilis sit."
+    review:"During my internship at a Gauge.ro, I was fortunate to delve into the world of professional setup work on Zira and Slack, two pivotal platforms for modern team collaboration. Being a Flutter enthusiast, I aimed to leverage my skills in mobile development while exploring various libraries to enhance user experience."
   },
   {
     avatar:IMG2,
     name: "JNR Enterprises",
-    review:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum natus quia, fugit sequi, quam iure, possimus excepturi aut soluta repudiandae laboriosam facilis sit."
+    review:"During my internship at JNR Enterprises, I embarked on an exciting journey to leverage my web development skills in creating a website from scratch. Tasked with transforming ideas into tangible digital experiences, I embraced the opportunity to contribute to the company's online presence while honing my craft."
   },
   // {
   //   avatar:IMG3,
