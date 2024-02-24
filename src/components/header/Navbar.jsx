@@ -9,13 +9,13 @@ const Navbar = () => {
     <div className="navbar1">
         <Sidebar/>
         <div className="wrapper1">
-        <motion.h3 className='heading'
+        <motion.span className='heading'
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
           Anshul Kumar
-        </motion.h3 >   
+        </motion.span >   
         {/* <h3 className='heading'>Anshul Kumar</h3> */}
         <div className="social">
         <a href="https://www.linkedin.com/in/anshulkumar2311/" target='_blank' rel="noopener" className='icons'><BsLinkedin/></a>
