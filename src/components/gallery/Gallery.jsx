@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Gallery.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Gallery = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
-    <div>
+    <div data-aos="zoom-in-left">
       <div className="container2" id="Gallery">
         <div className="left-text">
           <h2 className="heading">My College Lyf</h2>

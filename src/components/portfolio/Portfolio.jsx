@@ -6,10 +6,17 @@ import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.jpg"
 import IMG6 from "../../assets/portfolio6.jpg"
+import { useEffect } from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Portfolio = () => {
+   useEffect(() => {
+      AOS.init();
+    }, [])
   return (
-    <section id='portfolio'>
+    <section id='portfolio' data-aos="fade-up"
+    data-aos-duration="3000">
        <h5 id='Projects'>My Recent work </h5>
        <h2>Projects</h2>
 

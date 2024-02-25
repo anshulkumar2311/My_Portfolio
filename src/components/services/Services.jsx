@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./services.css"
 import { BiCheck } from "react-icons/bi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <section id='services'> 
+    <section id='services' data-aos="zoom-in">  
       
       <h5 id='Services'>What I Can Offer</h5>
       <h2>Services</h2>

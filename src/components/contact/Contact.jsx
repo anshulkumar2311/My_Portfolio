@@ -2,11 +2,15 @@ import "./Contact.css"
 import { MdOutlineMail } from "react-icons/md";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -29,7 +33,7 @@ const Contact = () => {
       e.target.reset();
   };
   return (
-    <section id='Contact'>
+    <section id='Contact' data-aos="flip-left">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
 

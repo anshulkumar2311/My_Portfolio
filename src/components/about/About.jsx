@@ -1,14 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./About.css"
 import Me from "../../assets/Me2.jpg"
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <section id='about'>
+    <section id='about' data-aos="fade-up-left">
+      
       <h5>Get To Know</h5>
       <h2 className='abthead' id='About'>About Me</h2>
 
