@@ -29,7 +29,7 @@ const Contact = () => {
       e.target.reset();
   };
   return (
-    <section id='contact'>
+    <section id='Contact'>
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
 

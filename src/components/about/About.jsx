@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Me from "../../assets/Me.jpg"
+import Me from "../../assets/Me2.jpg"
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
-      <h2 className='abthead'>About Me</h2>
+      <h2 className='abthead' id='About'>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -41,7 +41,7 @@ const About = () => {
             Throughout my academic journey, I've honed my skills by creating over 10+ projects spanning both Flutter and web development. My hands-on experience includes two enriching internships: one at Gauge.ro as a Flutter Developer and another at JNR Enterprises as a Technical Engineering Intern. These opportunities have not only expanded my technical expertise but also nurtured my professional growth, preparing me for a dynamic career in software development.
             </p>
              
-            <a href="#contact" className='btn btn-primary btnabt'>Let's Talk</a> 
+            <a href="#Contact" className='btn btn-primary btnabt'>Let's Talk</a> 
         </div>
       </div>
     </section>

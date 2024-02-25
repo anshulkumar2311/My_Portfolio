@@ -12,9 +12,9 @@
     height: 100%;
 }
 
-.heading{
-    font-weight: 400;
-    font-size: 1.5rem;
+.heading2{
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 .icons{
@@ -110,7 +110,7 @@ header{
     .header__socials,.scroll__down{
         display: none;
     }
-    .heading{
+    .heading2{
         display: none;
     }
     .social{

@@ -9,7 +9,7 @@ const Header = () => {
          <>
         <Navbar/>
         <header>
-        <div className="container header__container con1">
+        <div className="container header__container con1" id='Home'>
             <h5>Hello I'm</h5>
             <h1>Anshul Kumar</h1>
             <h5 className='text-light'>Flutter Developer | FrontEnd Developer</h5>
@@ -18,7 +18,7 @@ const Header = () => {
             <div className="me">
                 <img src={Me} alt="me" />
             </div>
-            <a href="#contact" className='scroll__down'>Scroll Down</a>
+            <a href="#Contact" className='scroll__down'>Scroll Down</a>
         </div>
         </header>
         </>

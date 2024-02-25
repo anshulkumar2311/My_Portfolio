@@ -8,6 +8,8 @@ import Footer from './components/footer/Footer'
 import Services from './components/services/Services.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Portfolio from './components/portfolio/Portfolio.jsx'
+import Gallery from './components/gallery/Gallery.jsx'
+
 
 
 const App = () => {
@@ -21,6 +23,7 @@ const App = () => {
     <Portfolio />
     <Contact/>
     <Testonomial />
+    <Gallery/>
     <Footer/>  
     </>
   )
